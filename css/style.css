@@ -8,6 +8,25 @@
   margin: auto;
 }
 
+@media (max-width: 1199px) {
+  .container {
+    max-width: 960px;
+  }
+}
+
+@media (max-width: 991px) {
+  .container {
+    max-width: 750px;
+  }
+}
+
+@media (max-width: 760px) {
+  .container {
+    max-width: 100%;
+    padding: 0 30px;
+  }
+}
+
 @font-face {
   font-family: 'Proxima Nova Light';
   src: url("../fonts/ProximaNova-Light.eot");
@@ -26,5 +45,10 @@
 
 body {
   font-family: 'Proxima Nova Light', san-serif;
+}
+
+.logo__text {
+  color: #262626;
+  text-transform: uppercase;
 }
 /*# sourceMappingURL=style.css.map */
